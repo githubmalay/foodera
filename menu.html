@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Restaurant Menu</h1>
+    <form id="orderForm">
+      <div class="menu">
+        <div class="category">
+          <h2>Appetizers</h2>
+          <div class="item">
+            <input type="radio" id="bruschetta" name="appetizer" value="Bruschetta">
+            <label for="bruschetta">
+              <h3>Bruschetta</h3>
+              <p>Grilled bread rubbed with garlic and topped with tomatoes, basil, and olive oil.</p>
+              <p class="price">$8.99</p>
+            </label>
+          </div>
+          <div class="item">
+            <input type="radio" id="caesarSalad" name="appetizer" value="Caesar Salad">
+            <label for="caesarSalad">
+              <h3>Caesar Salad</h3>
+              <p>Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.</p>
+              <p class="price">$10.99</p>
+            </label>
+          </div>
+        </div>
+        <div class="category">
+          <h2>Main Courses</h2>
+          <div class="item">
+            <input type="radio" id="spaghettiCarbonara" name="mainCourse" value="Spaghetti Carbonara">
+            <label for="spaghettiCarbonara">
+              <h3>Spaghetti Carbonara</h3>
+              <p>Spaghetti with pancetta, eggs, parmesan cheese, and black pepper.</p>
+              <p class="price">$15.99</p>
+            </label>
+          </div>
+          <div class="item">
+            <input type="radio" id="grilledSalmon" name="mainCourse" value="Grilled Salmon">
+            <label for="grilledSalmon">
+              <h3>Grilled Salmon</h3>
+              <p>Fresh grilled salmon served with steamed vegetables.</p>
+              <p class="price">$18.99</p>
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block mt-4">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>

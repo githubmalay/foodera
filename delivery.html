@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodera</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      
+      .containers {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      
+      .confirmation img {
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      p {
+        margin-bottom: 20px;
+        color: #666;
+      }
+      
+      .details {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+      
+      .details h2 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+        color: #555;
+      }
+      
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        /* margin-top: px; */
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      
+        </style>
+      
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Foodera</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fas fa-home fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order-tracking.html"><i class="fas fa-truck fa-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="containers">
+  <div class="confirmation">
+    <img src="tick.png" alt="Delivery Received">
+    <h1>Your Order Will Be Delivered you Soon!</h1>
+    <p>Thank you for choosing our services.</p>
+    <div class="details">
+      <h2>Order Details</h2>
+      <ul>
+        <li><strong>Order ID:</strong> #123456</li>
+        <li><strong>Delivery Date:</strong> April 30, 2024</li>
+        <li><strong>Delivery Time:</strong> 2:30 PM</li>
+        <li><strong>Delivery Address:</strong> 123 Main Street, City, Country</li>
+        <li><strong>Items Received:</strong> Pizza, Salad, Drink</li>
+        <li><strong>Total Amount:</strong> $35.99</li>
+      </ul>
+    </div>
+    <a href="index.html" class="btn btn-primary">Back to Home</a>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
